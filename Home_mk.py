@@ -27,18 +27,41 @@ if page == '홈':
 elif page == '선수단':
     st.title("🏃‍♂️‍➡️선수단")
 
-    st.subheader("[ST]")
-    st.write("전종석")
-    image1 = Image.open("IMG_2949.jpg")
-    st.image(image1, caption = "병신ㅋㅋ", width=100)
+    page2 = st.radio('[포지션을 선택하세요] : ', ['FW🔴', 'MF🟢', 'DF🔵', 'GK🟡'])
 
-    st.subheader("[MF]")
-    st.write("허언강")
+    if page2 == 'FW🔴':
 
-    st.subheader("[DF]")
-    st.write("허사강[C]")
+        st.header("[FW]")
+        st.subheader("전종석")
+        image1 = Image.open("IMG_2949.jpg")
+        st.image(image1, caption = "병신ㅋㅋ", width=100)
 
-    st.subheader("[GK]")
+        st.subheader("김선호")
+        st.subheader("김선용")
+        st.subheader("조형준")
+        st.subheader("심정현")
+        st.subheader("노창환")
+        st.subheader("김한빈")
+        st.subheader("김원빈")
+        st.subheader("이민기")
+        st.subheader("한정훈")
+        st.subheader("홍세왕")
+
+    elif page2 == 'MF🟢':
+        st.header("[MF]")
+        st.subheader("허언강")
+        st.subheader("강진욱")
+        st.subheader("김종학")
+
+    elif page2 == 'DF🔵':
+        st.header("[DF]")
+        st.subheader("허사강[C]")
+        st.subheader("유호석")
+        st.subheader("김용수")
+        st.subheader("정연목")
+
+    elif page2 == 'GK🟡':
+        st.header("[GK]")
 
 elif page == '연락처':
     st.title("연락처")
