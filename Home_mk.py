@@ -28,7 +28,8 @@ if page == '홈':
     #st.markdown("TEST")
 
     if st.button("@m__kfc"):
-        webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
+        st.markdown('(https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk)', unsafe_allow_html=True)
+        #webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
 
     image_m = Image.open("명가FC.jpg")
     st.image(image_m, caption="명가 FC")
