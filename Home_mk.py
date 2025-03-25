@@ -64,7 +64,7 @@ elif page == '선수단':
     elif page2 == 'MF🟢':
         st.header("[MF]")
         st.subheader("허언강 (No.8)")
-        image3 = Image.open("허언강.jpg")
+        image3 = Image.open("허언강.JPG")
         st.image(image3, width=150)
         st.write("Slogan : \'명가FC 화이팅!\'")
         st.subheader("강진욱 (No.18)")
