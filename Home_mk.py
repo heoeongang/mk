@@ -30,7 +30,7 @@ if page == '홈':
     if st.button("@m__kfc"):
         webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
 
-    image = Image.open("명가FC.JPG")
+    image = Image.open("명가FC.jpg")
     st.image(image, caption="명가 FC")
 
 # 선수단
