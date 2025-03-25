@@ -30,8 +30,8 @@ if page == '홈':
     if st.button("@m__kfc"):
         webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
 
-    image = Image.open("명가FC.jpg")
-    st.image(image, caption="명가 FC")
+    image_m = Image.open("명가FC.jpg")
+    st.image(image_m, caption="명가 FC")
 
 # 선수단
 elif page == '선수단':
