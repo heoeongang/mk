@@ -134,7 +134,7 @@ elif page == '선수단👤':
 
         with col_DF1[0]:
             st.markdown("<h5 style='text-align: center;'>허사강[C] (No.14)</h5>", unsafe_allow_html=True)
-            image1 = Image.open("허사강2.jpg")
+            image1 = Image.open("허사강2.JPG")
             image2 = image1.resize((200,200))
             st.image(image2)
             st.markdown("<h6 style='text-align: center;'>Slogan : \"패스 빠르게.\"</h6>", unsafe_allow_html=True)
