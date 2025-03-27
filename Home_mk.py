@@ -28,16 +28,17 @@ if page == '홈':
     #st.markdown("TEST")
 
     if st.button("@m__kfc"):
-        webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
+        st.markdown('(https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk)', unsafe_allow_html=True)
+        #webbrowser.open("https://www.instagram.com/m__kfc?igsh=ZWVlcWZtejB0aXhk")
 
-    image = Image.open("명가FC.JPG")
-    st.image(image, caption="명가 FC")
+    image_m = Image.open("명가FC.jpg")
+    st.image(image_m, caption="명가 FC")
 
 # 선수단
 elif page == '선수단':
     st.title("🏃‍♂️‍➡️선수단")
 
-    page2 = st.radio('', ['FW🔴', 'MF🟢', 'DF🔵', 'GK🟡'])
+    page2 = st.selectbox('', ['FW🔴', 'MF🟢', 'DF🔵', 'GK🟡'])
 
     if page2 == 'FW🔴':
 
