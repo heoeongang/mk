@@ -12,9 +12,9 @@ image_mk2 = Image.open("IMG_2099.PNG")
 # 사진, 글 배치하기
 col1 = st.columns(3)
 with col1[0]:
-    st.image(image_mk1, use_column_width = True)
+    st.image(image_mk1, use_container_width = True)
 with col1[1]:
-    st.image(image_mk2, use_column_width = True)
+    st.image(image_mk2, use_container_width = True)
     st.subheader("   Since 200501   ")
     st.write("명가 FC 공식 홈페이지 입니다.")
 with col1[2]:
