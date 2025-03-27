@@ -47,7 +47,7 @@ elif page == "유니폼👕":
             st.markdown("<h4 style='text-align: left;'>[앞]</h4>", unsafe_allow_html=True)
         with col_uniform[1]:
             st.markdown("<h4 style='text-align: left;'>[뒤]</h4>", unsafe_allow_html=True)
-        image = Image.open("어웨이.png")
+        image = Image.open("어웨이.PNG")
         st.image(image, width = 1000)
 
 elif page == '선수단👤':
