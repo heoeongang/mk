@@ -35,11 +35,11 @@ elif page == "유니폼👕":
     if uniform == '홈':
         with col_uniform[0]:
             st.markdown("<h4 style='text-align: left;'>[앞]</h4>", unsafe_allow_html=True)
-            image = Image.open("홈_앞.png")
+            image = Image.open("홈_앞.PNG")
             st.image(image, width = 250)
         with col_uniform[1]:
             st.markdown("<h4 style='text-align: left;'>[뒤]</h4>", unsafe_allow_html=True)
-            image = Image.open("홈_뒤.png")
+            image = Image.open("홈_뒤.PNG")
             st.image(image, width = 250)
     elif uniform == '어웨이':
         col_uniform = st.columns(2)
@@ -99,7 +99,7 @@ elif page == '선수단👤':
 
         with col_MF1[0]:
             st.markdown("<h5 style='text-align: center;'>허언강 (No.8)</h5>", unsafe_allow_html=True)
-            image1 = Image.open("허언강.jpg")
+            image1 = Image.open("허언강.JPG")
             image2 = image1.resize((200,200))
             st.image(image2)
             st.markdown("<h6 style='text-align: center;'>Slogan : \"말좀하자 제발\"</h6>", unsafe_allow_html=True)
